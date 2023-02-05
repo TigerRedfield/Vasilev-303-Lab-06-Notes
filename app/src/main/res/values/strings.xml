@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vasilev303Lab06Notes</string>
+    <string name="ButAdd">Add note</string>
+    <string name="labtitle">Note Title</string>
+    <string name="LabContents">Contents</string>
+    <string name="LabTitle">Note Title:</string>
+    <string name="LabCont">Contents:</string>
+    <string name="butSave">Save</string>
+    <string name="ButDelete">Delete</string>
+    <string name="ButClose">Close</string>
+</resources>

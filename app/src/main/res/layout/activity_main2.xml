@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_screen2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/lab_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/LabTitle" />
+
+    <EditText
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/lab_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/LabCont" />
+
+    <EditText
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:id="@+id/lay_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/but_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="on_but_save_click"
+            android:text="@string/butSave" />
+
+        <Button
+            android:id="@+id/but_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="on_but_delete_click"
+            android:text="@string/ButDelete" />
+
+        <Button
+            android:id="@+id/but_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="on_but_close_click"
+            android:text="@string/ButClose" />
+    </LinearLayout>
+</LinearLayout>
